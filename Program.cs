@@ -64,6 +64,52 @@ public class Programs
         }
 
 
+        //Le solicitamos al usuario , el numero del empleado al que le haremos un aumento de sueldo.
+
+        Console.Write("Digite el número del empleado al que se le aumentara el salario: ");
+
+        //Creamos una variable donde guarda el numero de empleado ingresado.
+
+        int numeroEmpleado = Convert.ToInt32(Console.ReadLine());
+
+        // Cree una variabla llamada "EmpleadoSalarioNuevo" para poder ingresar a los metodos de la clase Generica
+
+        Empleado empleado_salario_nuevo = BuscarEmpleado(listaEmpleados, numeroEmpleado);
+
+        //Validamos con el if-else el numero del empleado que ingresamos
+        if (empleado_salario_nuevo != null)
+        {
+            //Si el empleado existe 
+            empleado_salario_nuevo.MostrarDetalles();
+
+            //Le solicito al usuario el porcentaje a aumentar al salario del empleado
+            Console.Write("Ingrese el porcentaje a aumentar: ");
+
+            //Se crea la variable que guardara el porcentaje en aumentar
+            decimal Porcentaje = Convert.ToDecimal(Console.ReadLine());
+
+
+            /*Hacemos uso de la variable "Empleado" para ingresar al salario ya que esta en privada */
+
+            decimal SalarioBase = empleado_salario_nuevo.GetSalario();
+
+            //Hacemos el calculo porcentual para hacer el aumento al sueldo
+            decimal SalarioNuevo = SalarioBase + (SalarioBase * (Porcentaje / 100));
+
+
+            //Imprimmos el resultado 
+            Console.WriteLine($"Aumento el salario en {Porcentaje} %. El salario nuevo es: {SalarioNuevo}");
+
+        }
+        else
+        {
+            //Si no existe 
+            Console.WriteLine($"El empleado con el numero digitado {empleado_salario_nuevo} no existe");
+        }
+
+
+
+
 
     }
 
