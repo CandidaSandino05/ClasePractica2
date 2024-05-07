@@ -1,0 +1,14 @@
+C:\Users\HP\source\repos\PracticaNumero2\PracticaNumero2\bin\Debug\net8.0\PracticaNumero2.exe
+C:\Users\HP\source\repos\PracticaNumero2\PracticaNumero2\bin\Debug\net8.0\PracticaNumero2.deps.json
+C:\Users\HP\source\repos\PracticaNumero2\PracticaNumero2\bin\Debug\net8.0\PracticaNumero2.runtimeconfig.json
+C:\Users\HP\source\repos\PracticaNumero2\PracticaNumero2\bin\Debug\net8.0\PracticaNumero2.dll
+C:\Users\HP\source\repos\PracticaNumero2\PracticaNumero2\bin\Debug\net8.0\PracticaNumero2.pdb
+C:\Users\HP\source\repos\PracticaNumero2\PracticaNumero2\obj\Debug\net8.0\PracticaNumero2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\PracticaNumero2\PracticaNumero2\obj\Debug\net8.0\PracticaNumero2.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\PracticaNumero2\PracticaNumero2\obj\Debug\net8.0\PracticaNumero2.AssemblyInfo.cs
+C:\Users\HP\source\repos\PracticaNumero2\PracticaNumero2\obj\Debug\net8.0\PracticaNumero2.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\PracticaNumero2\PracticaNumero2\obj\Debug\net8.0\PracticaNumero2.dll
+C:\Users\HP\source\repos\PracticaNumero2\PracticaNumero2\obj\Debug\net8.0\refint\PracticaNumero2.dll
+C:\Users\HP\source\repos\PracticaNumero2\PracticaNumero2\obj\Debug\net8.0\PracticaNumero2.pdb
+C:\Users\HP\source\repos\PracticaNumero2\PracticaNumero2\obj\Debug\net8.0\PracticaNumero2.genruntimeconfig.cache
+C:\Users\HP\source\repos\PracticaNumero2\PracticaNumero2\obj\Debug\net8.0\ref\PracticaNumero2.dll
